@@ -52,8 +52,9 @@ aichatcoder run
 This starts the agent, which will connect to the web UI and prepare to generate prompts and apply changes.
 
 ## Status
-This is a mockup version (0.0.1) of the AiChatCoder Agent.
-The current version provides a basic CLI for initializing and running the agent. Future versions will include:
+This is a mockup version of the AiChatCoder Agent.
+
+Future versions will include:
 
 - Full integration with the web UI at aichatcoder.com.
 
@@ -66,12 +67,12 @@ The current version provides a basic CLI for initializing and running the agent.
 - Cross-platform functionality.
 
 ## License
-The AiChatCoder Agent is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+The AiChatCoder Agent is licensed under the MIT License. See the [LICENSE](https://github.com/aichatcoder/aichatcoder/blob/main/LICENSE) file for details.
 
 ## Credits
-Created by [therceman](www.therceman.dev)
+Created by [therceman](https://www.therceman.dev)
 
 ## Links
-- Website: aichatcoder.com
-- PyPI: pypi.org/project/aichatcoder/
+- Website: [aichatcoder.com](https://aichatcoder.com)
+- PyPI: [aichatcoder](https://pypi.org/project/aichatcoder/)
 
