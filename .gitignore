@@ -1,0 +1,18 @@
+# Python virtual environment
+venv/
+.venv/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Build artifacts
+/build/
+dist/
+*.egg-info/
+
+# IDEs
+.idea/
+
+# System files
+.DS_Store

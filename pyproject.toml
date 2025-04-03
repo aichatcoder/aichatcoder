@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "aichatcoder"
+version = "0.0.1"
+authors = [
+    { name = "AiChatCoder Team", email = "aichatcoder@gmail.com" },
+]
+description = "Agent for generating and applying AI-powered coding prompts in your repository via a web UI"
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "click>=8.0",
+]
+
+[project.scripts]
+aichatcoder = "aichatcoder.cli:main"
+
+[project.urls]
+Homepage = "https://aichatcoder.com"
